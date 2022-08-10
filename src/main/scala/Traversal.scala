@@ -1,5 +1,4 @@
 import scala.collection.mutable.Stack
-import WebPage._
 import scala.annotation.tailrec
 import Main.{logging,stackTrace,deepTrace}
 import Parser.getLinks;
