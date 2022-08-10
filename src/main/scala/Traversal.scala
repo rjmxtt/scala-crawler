@@ -3,7 +3,7 @@ import scala.annotation.tailrec
 import Main.{logging,stackTrace,deepTrace}
 import Parser.getLinks;
 
-object Traversal extends Thread{
+object Traversal extends Thread {
   def traverseSite(root: String) = {
     val dfsSolution = dfs(root)
     dfsSolution.map(l => println(s"${l}\n"))
@@ -12,7 +12,6 @@ object Traversal extends Thread{
 
 
   def dfs(start: String): List[String] = {
-    
     def dfs0(v: String, visited: List[String]): List[String] = {
       if (logging(stackTrace)) {println(s"${v} :: ${visited.length}")}
       if (visited.contains(v)) {

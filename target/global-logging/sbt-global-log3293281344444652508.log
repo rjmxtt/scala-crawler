@@ -10,3 +10,5 @@
 [0m[[0m[33mwarn[0m] [0m[0m             ^[0m
 [0m[[0m[33mwarn[0m] [0m[0m1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
 [0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 59 s, completed 10 Aug 2022, 19:19:12[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
