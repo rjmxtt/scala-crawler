@@ -40,11 +40,11 @@ object Parser {
       case e: MalformedURLException =>
         println(s"MalformedURLException :: ${e}")  
         List.empty
-      case f: UnsupportedMimeTypeException => 
-        println(s"UnsupportedMimeTypeException :: ${f}")
+      case e: UnsupportedMimeTypeException => 
+        println(s"UnsupportedMimeTypeException :: ${e}")
         sys.exit(1)
-      case g: HttpStatusException => 
-        println(s"HttpStatusException :: ${g}")
+      case e: HttpStatusException => 
+        println(s"HttpStatusException :: ${e}")
         List.empty
       case _@other => 
         println(s"Jsoup Error :: $other")
