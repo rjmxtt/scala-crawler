@@ -11,18 +11,18 @@ object Traversal extends Thread {
   }
 
 
-  def dfs(start: String): List[String] = {
-    def dfs0(v: String, visited: List[String]): List[String] = {
-      if (logging(stackTrace)) {println(s"${v} :: ${visited.length}")}
-      if (visited.contains(v)) {
+  def dfs(root: String): List[String] = {
+    def dfsInt(curPage: String, visited: List[String]): List[String] = {
+      if (logging(stackTrace)) {println(s"$curPage :: ${visited.length}")}
+      if (visited.contains(curPage)) {
         visited
       } else {
-        val neighbours: List[String] = getLinks(start, v).filterNot(visited.toSet)
-        neighbours.foldLeft(v :: visited) ((b,a) => dfs0(a,b))
+        val pageLinks: List[String] = getLinks(root, curPage).filterNot(visited.toSet)
+        pageLinks.foldLeft(curPage :: visited) ((b,a) => dfsInt(a,b))
       }
     }
 
-    dfs0(start,List()).reverse
+    dfsInt(root,List()).reverse
   }
 
 

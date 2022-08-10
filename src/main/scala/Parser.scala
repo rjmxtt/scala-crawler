@@ -5,8 +5,6 @@ import org.jsoup.select.Elements;
 import scala.collection.JavaConverters._
 import org.apache.xerces.util.URI.MalformedURIException
 import org.jsoup.UnsupportedMimeTypeException
-import com.gargoylesoftware.htmlunit.{WebClient,UnexpectedPage,Page,BrowserVersion}
-import com.gargoylesoftware.htmlunit.html.HtmlPage
 import java.net.MalformedURLException
 
 object Parser {
