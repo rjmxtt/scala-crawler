@@ -1,0 +1,8 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Volumes/HD2/rjm/Documents/Develop/crawler/src/main/scala/Parser.scala:16:13: This catches all Throwables. If this is really intended, use `case _ : Throwable` to clear this warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    catch _ => false[0m
+[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Volumes/HD2/rjm/Documents/Develop/crawler/src/main/scala/Parser.scala:51:14: This catches all Throwables. If this is really intended, use `case other : Throwable` to clear this warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case _@other => [0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m

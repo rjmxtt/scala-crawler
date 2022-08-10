@@ -1,0 +1,31 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Volumes/HD2/rjm/Documents/Develop/crawler/target/scala-2.13/crawler_2.13-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Volumes/HD2/rjm/Documents/Develop/crawler/target/scala-2.13/classes/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Volumes/HD2/rjm/Documents/Develop/crawler/target/scala-2.13/classes/Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Volumes/HD2/rjm/Documents/Develop/crawler/target/scala-2.13/classes/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Parser$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Volumes/HD2/rjm/Documents/Develop/crawler/target/scala-2.13/classes/Parser$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Parser.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Volumes/HD2/rjm/Documents/Develop/crawler/target/scala-2.13/classes/Parser.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Site.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Volumes/HD2/rjm/Documents/Develop/crawler/target/scala-2.13/classes/Site.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Traversal$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Volumes/HD2/rjm/Documents/Develop/crawler/target/scala-2.13/classes/Traversal$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Traversal.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Volumes/HD2/rjm/Documents/Develop/crawler/target/scala-2.13/classes/Traversal.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WebPage$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Volumes/HD2/rjm/Documents/Develop/crawler/target/scala-2.13/classes/WebPage$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WebPage$DFSPage$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Volumes/HD2/rjm/Documents/Develop/crawler/target/scala-2.13/classes/WebPage$DFSPage$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WebPage$DFSPage.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Volumes/HD2/rjm/Documents/Develop/crawler/target/scala-2.13/classes/WebPage$DFSPage.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WebPage$Page$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Volumes/HD2/rjm/Documents/Develop/crawler/target/scala-2.13/classes/WebPage$Page$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WebPage$Page.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Volumes/HD2/rjm/Documents/Develop/crawler/target/scala-2.13/classes/WebPage$Page.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WebPage.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Volumes/HD2/rjm/Documents/Develop/crawler/target/scala-2.13/classes/WebPage.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

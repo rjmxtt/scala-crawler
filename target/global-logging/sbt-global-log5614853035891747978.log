@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run https://monzo.com/, Some(9825e2fa-7c28-43e9-b877-638eeade8faf), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Volumes/HD2/rjm/Documents/Develop/crawler/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Volumes/HD2/rjm/Documents/Develop/crawler/src/main/scala/Parser.scala:22:50: multiple constructors for File with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: net.sourceforge.htmlunit.corejs.javascript.NativeArray,x$2: String,x$3: net.sourceforge.htmlunit.corejs.javascript.ScriptableObject)com.gargoylesoftware.htmlunit.javascript.host.file.File <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  ()com.gargoylesoftware.htmlunit.javascript.host.file.File[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be invoked with (String)[0m
+[0m[[0m[31merror[0m] [0m[0m        val myPage: HtmlPage = webClient.getPage(new File("page.html").toURI().toURL());[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Volumes/HD2/rjm/Documents/Develop/crawler/src/main/scala/Parser.scala:48:14: This catches all Throwables. If this is really intended, use `case other : Throwable` to clear this warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case _@other => [0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 10 Aug 2022, 12:57:17[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

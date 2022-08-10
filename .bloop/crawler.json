@@ -1,0 +1,728 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "crawler",
+        "directory": "/Volumes/HD2/rjm/Documents/Develop/crawler",
+        "workspaceDir": "/Volumes/HD2/rjm/Documents/Develop/crawler",
+        "sources": [
+            "/Volumes/HD2/rjm/Documents/Develop/crawler/src/main/scala",
+            "/Volumes/HD2/rjm/Documents/Develop/crawler/src/main/scala-2.13",
+            "/Volumes/HD2/rjm/Documents/Develop/crawler/src/main/scala-2",
+            "/Volumes/HD2/rjm/Documents/Develop/crawler/src/main/java",
+            "/Volumes/HD2/rjm/Documents/Develop/crawler/target/scala-2.13/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/ruippeixotog/scala-scraper_2.13/3.0.0/scala-scraper_2.13-3.0.0.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.63.0/htmlunit-2.63.0.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.13/2.30.0/nscala-time_2.13-2.30.0.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.15.1/jsoup-1.15.1.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalaz/scalaz-core_2.13/7.3.6/scalaz-core_2.13-7.3.6.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.63.0/htmlunit-core-js-2.63.0.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.63.0/neko-htmlunit-2.63.0.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-cssparser/1.12.0/htmlunit-cssparser-1.12.0.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.9/commons-text-1.9.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.10.0/commons-io-2.10.0.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-net/commons-net/3.8.0/commons-net-3.8.0.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.15/commons-codec-1.15.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/brotli/dec/0.1.2/dec-0.1.2.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/shapesecurity/salvation2/3.0.0/salvation2-3.0.0.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.48.v20220622/websocket-client-9.4.48.v20220622.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.12/joda-time-2.10.12.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/2.2.1/joda-convert-2.2.1.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xerces/xercesImpl/2.12.2/xercesImpl-2.12.2.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.48.v20220622/jetty-client-9.4.48.v20220622.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.48.v20220622/jetty-util-9.4.48.v20220622.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.48.v20220622/jetty-io-9.4.48.v20220622.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.48.v20220622/websocket-common-9.4.48.v20220622.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.48.v20220622/jetty-http-9.4.48.v20220622.jar",
+            "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.48.v20220622/websocket-api-9.4.48.v20220622.jar"
+        ],
+        "out": "/Volumes/HD2/rjm/Documents/Develop/crawler/.bloop/crawler",
+        "classesDir": "/Volumes/HD2/rjm/Documents/Develop/crawler/.bloop/crawler/scala-2.13/classes",
+        "resources": [
+            "/Volumes/HD2/rjm/Documents/Develop/crawler/src/main/resources",
+            "/Volumes/HD2/rjm/Documents/Develop/crawler/target/scala-2.13/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.8",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar",
+                "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar",
+                "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar",
+                "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar",
+                "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre",
+                "options": [
+                    "-Duser.dir=/Volumes/HD2/rjm/Documents/Develop/crawler"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.ruippeixotog",
+                    "name": "scala-scraper_2.13",
+                    "version": "3.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-scraper_2.13",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/ruippeixotog/scala-scraper_2.13/3.0.0/scala-scraper_2.13-3.0.0.jar"
+                        },
+                        {
+                            "name": "scala-scraper_2.13",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/ruippeixotog/scala-scraper_2.13/3.0.0/scala-scraper_2.13-3.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.sourceforge.htmlunit",
+                    "name": "htmlunit",
+                    "version": "2.63.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "htmlunit",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.63.0/htmlunit-2.63.0.jar"
+                        },
+                        {
+                            "name": "htmlunit",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.63.0/htmlunit-2.63.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.nscala-time",
+                    "name": "nscala-time_2.13",
+                    "version": "2.30.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "nscala-time_2.13",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.13/2.30.0/nscala-time_2.13-2.30.0.jar"
+                        },
+                        {
+                            "name": "nscala-time_2.13",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.13/2.30.0/nscala-time_2.13-2.30.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jsoup",
+                    "name": "jsoup",
+                    "version": "1.15.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jsoup",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.15.1/jsoup-1.15.1.jar"
+                        },
+                        {
+                            "name": "jsoup",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.15.1/jsoup-1.15.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalaz",
+                    "name": "scalaz-core_2.13",
+                    "version": "7.3.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalaz-core_2.13",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalaz/scalaz-core_2.13/7.3.6/scalaz-core_2.13-7.3.6.jar"
+                        },
+                        {
+                            "name": "scalaz-core_2.13",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalaz/scalaz-core_2.13/7.3.6/scalaz-core_2.13-7.3.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "xalan",
+                    "name": "xalan",
+                    "version": "2.7.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "xalan",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2.jar"
+                        },
+                        {
+                            "name": "xalan",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpmime",
+                    "version": "4.5.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpmime",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar"
+                        },
+                        {
+                            "name": "httpmime",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.sourceforge.htmlunit",
+                    "name": "htmlunit-core-js",
+                    "version": "2.63.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "htmlunit-core-js",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.63.0/htmlunit-core-js-2.63.0.jar"
+                        },
+                        {
+                            "name": "htmlunit-core-js",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.63.0/htmlunit-core-js-2.63.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.sourceforge.htmlunit",
+                    "name": "neko-htmlunit",
+                    "version": "2.63.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "neko-htmlunit",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.63.0/neko-htmlunit-2.63.0.jar"
+                        },
+                        {
+                            "name": "neko-htmlunit",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.63.0/neko-htmlunit-2.63.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.sourceforge.htmlunit",
+                    "name": "htmlunit-cssparser",
+                    "version": "1.12.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "htmlunit-cssparser",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-cssparser/1.12.0/htmlunit-cssparser-1.12.0.jar"
+                        },
+                        {
+                            "name": "htmlunit-cssparser",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-cssparser/1.12.0/htmlunit-cssparser-1.12.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-lang3",
+                    "version": "3.12.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-lang3",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+                        },
+                        {
+                            "name": "commons-lang3",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-text",
+                    "version": "1.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-text",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.9/commons-text-1.9.jar"
+                        },
+                        {
+                            "name": "commons-text",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.9/commons-text-1.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-io",
+                    "name": "commons-io",
+                    "version": "2.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-io",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.10.0/commons-io-2.10.0.jar"
+                        },
+                        {
+                            "name": "commons-io",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.10.0/commons-io-2.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-logging",
+                    "name": "commons-logging",
+                    "version": "1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-logging",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+                        },
+                        {
+                            "name": "commons-logging",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-net",
+                    "name": "commons-net",
+                    "version": "3.8.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-net",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-net/commons-net/3.8.0/commons-net-3.8.0.jar"
+                        },
+                        {
+                            "name": "commons-net",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-net/commons-net/3.8.0/commons-net-3.8.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-codec",
+                    "name": "commons-codec",
+                    "version": "1.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-codec",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.15/commons-codec-1.15.jar"
+                        },
+                        {
+                            "name": "commons-codec",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.15/commons-codec-1.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.brotli",
+                    "name": "dec",
+                    "version": "0.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "dec",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/brotli/dec/0.1.2/dec-0.1.2.jar"
+                        },
+                        {
+                            "name": "dec",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/brotli/dec/0.1.2/dec-0.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.shapesecurity",
+                    "name": "salvation2",
+                    "version": "3.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "salvation2",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/shapesecurity/salvation2/3.0.0/salvation2-3.0.0.jar"
+                        },
+                        {
+                            "name": "salvation2",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/shapesecurity/salvation2/3.0.0/salvation2-3.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty.websocket",
+                    "name": "websocket-client",
+                    "version": "9.4.48.v20220622",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "websocket-client",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.48.v20220622/websocket-client-9.4.48.v20220622.jar"
+                        },
+                        {
+                            "name": "websocket-client",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.48.v20220622/websocket-client-9.4.48.v20220622-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "joda-time",
+                    "name": "joda-time",
+                    "version": "2.10.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "joda-time",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.12/joda-time-2.10.12.jar"
+                        },
+                        {
+                            "name": "joda-time",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.12/joda-time-2.10.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.joda",
+                    "name": "joda-convert",
+                    "version": "2.2.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "joda-convert",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/2.2.1/joda-convert-2.2.1.jar"
+                        },
+                        {
+                            "name": "joda-convert",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/2.2.1/joda-convert-2.2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "xalan",
+                    "name": "serializer",
+                    "version": "2.7.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "serializer",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2.jar"
+                        },
+                        {
+                            "name": "serializer",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpclient",
+                    "version": "4.5.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpclient",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar"
+                        },
+                        {
+                            "name": "httpclient",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "xerces",
+                    "name": "xercesImpl",
+                    "version": "2.12.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "xercesImpl",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xerces/xercesImpl/2.12.2/xercesImpl-2.12.2.jar"
+                        },
+                        {
+                            "name": "xercesImpl",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xerces/xercesImpl/2.12.2/xercesImpl-2.12.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-client",
+                    "version": "9.4.48.v20220622",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-client",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.48.v20220622/jetty-client-9.4.48.v20220622.jar"
+                        },
+                        {
+                            "name": "jetty-client",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.48.v20220622/jetty-client-9.4.48.v20220622-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-util",
+                    "version": "9.4.48.v20220622",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-util",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.48.v20220622/jetty-util-9.4.48.v20220622.jar"
+                        },
+                        {
+                            "name": "jetty-util",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.48.v20220622/jetty-util-9.4.48.v20220622-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-io",
+                    "version": "9.4.48.v20220622",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-io",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.48.v20220622/jetty-io-9.4.48.v20220622.jar"
+                        },
+                        {
+                            "name": "jetty-io",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.48.v20220622/jetty-io-9.4.48.v20220622-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty.websocket",
+                    "name": "websocket-common",
+                    "version": "9.4.48.v20220622",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "websocket-common",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.48.v20220622/websocket-common-9.4.48.v20220622.jar"
+                        },
+                        {
+                            "name": "websocket-common",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.48.v20220622/websocket-common-9.4.48.v20220622-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpcore",
+                    "version": "4.4.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpcore",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar"
+                        },
+                        {
+                            "name": "httpcore",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "xml-apis",
+                    "name": "xml-apis",
+                    "version": "1.4.01",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "xml-apis",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar"
+                        },
+                        {
+                            "name": "xml-apis",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-http",
+                    "version": "9.4.48.v20220622",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-http",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.48.v20220622/jetty-http-9.4.48.v20220622.jar"
+                        },
+                        {
+                            "name": "jetty-http",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.48.v20220622/jetty-http-9.4.48.v20220622-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty.websocket",
+                    "name": "websocket-api",
+                    "version": "9.4.48.v20220622",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "websocket-api",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.48.v20220622/websocket-api-9.4.48.v20220622.jar"
+                        },
+                        {
+                            "name": "websocket-api",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.48.v20220622/websocket-api-9.4.48.v20220622-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.8",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Volumes/HD2/rjm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

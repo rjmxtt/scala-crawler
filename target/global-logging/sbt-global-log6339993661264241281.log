@@ -1,0 +1,10 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run https://monzo.com, Some(eb67c06b-7baa-4d74-bc38-c4dba6e51478), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Volumes/HD2/rjm/Documents/Develop/crawler/target/scala-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Volumes/HD2/rjm/Documents/Develop/crawler/src/main/scala/Parser.scala:33:14: This catches all Throwables. If this is really intended, use `case other : Throwable` to clear this warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case _@other => [0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

@@ -1,0 +1,4 @@
+[debug] [crawler-test] Classpath dependencies List()
+[debug] [crawler-test] Dependencies from configurations List(crawler)
+[debug] Bloop wrote the configuration of project 'crawler-test' to '/Volumes/HD2/rjm/Documents/Develop/crawler/.bloop/crawler-test.json'
+[success] Generated .bloop/crawler-test.json

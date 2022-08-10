@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run https://rjmxtt.myportfolio.com 1, Some(a3a7f0a9-4e9c-45e5-9143-6027f471a4ec), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 10 Aug 2022, 14:49:33[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
